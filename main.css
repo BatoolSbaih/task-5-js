@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+}
+.submit{
+    background-color: rgb(99, 167, 99);
+    color:white;
+    border-color:rgb(99, 167, 99) ;
+}
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+}
+.tolist{
+    width: 300px;
+    border-radius:3px;
+    border-color: black;
+    border-style: double;
+    margin: auto;
+}
+.tasks{
+    padding-top:20px;
+    gap: 10px;
+    text-align: center;
+    width:200px;
+    border-radius:3px;
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.check{
+    text-align: center;
+    align-items: center;
+    width:200px;
+    border-radius:3px;
+    border-style: dotted;
+    border-color:black;
+    background-color: rgb(121, 189, 166);
+}
+.checkd{
+    background-color: rgb(58, 226, 170);
+    text-decoration: line-through;
+    color: white;
+    border-radius:3px;
+    border-style: dotted;
+    border-color:black
+
+}
